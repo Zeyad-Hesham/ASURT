@@ -3,13 +3,50 @@
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>#1 Task</title>
-<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=yes">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-<head></head>
+<head>
 
+</head>
+<style>
+    .dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+li {
+    font-size: 30px;
+    color: black;
+}
+label{
+    color: blue;
+}
+#filleddot{
+    background-color: blue;
+}
+#outer-circle {
+    background: white;
+    border-color: blueviolet;
+    border-width: 100px; 
+    border-radius: 50%;
+    height:250px;
+    width:250px;
+}
+#inner-circle {
+    position: relative;
+    background: blue;
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+    margin: 0px 0px 0px ;
+}
+
+</style>
 <body>
 
 <div class="container">
@@ -18,46 +55,134 @@
 
         <div class="col-sm-5" >
 
-            <div style=" background-color: blue; height:300px; margin-top: 25px; margin-bottom: 15px;">
-                
+            <div style=" height:300px; margin-top: 25px; margin-bottom: 150px;">
+            
                 <center>
+                <div id="content">
+                    <div id="outer-circle">
+                        <div id="inner-circle">
+                            <span id="inside-content"></span>
+                        </div>
+                    </div>
+                </div>
                 <h2>NAME HERE</h3>
-                <h1>SURNNAME</h2>
+                <h1>SURNAME</h2>
                 <h4>GRAPHIC DESIGNER</h4>
                 </center>
             </div>
 
-            <div style=" background-color: red; height:300px; margin-bottom: 15px;"> 
-                <h2 style=" color: rgba(36, 36, 165, 0.87) ">PROFILE</h2>
+            <div style=" height:300px; margin-bottom: 15px; padding: 10px;"> 
+                <div style="color:blue;"><i class="fas fa-user-circle fa-3x"></i>&nbsp;&nbsp;<b><label style=" font-size: 30px; color: blue;">PROFILE</label></b>&nbsp;&nbsp;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;</div>
                 <p>
                 "Abilities or he perfectly pretended so strangers be exquisite. Oh to another chamber pleased imagine do in. Went me rank
                 at last loud shot an draw. Excellent so to no sincerity smallness. Removal request delight if on he we. Unaffected in we
-                by apartments astonished to decisively themselves. Offended ten old consider speaking."
+                by apartments astonished to decisively themselves. Offended ten old consider speaking.Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained
+                propriety off out perpetual his you."
                 </p>
             </div>
 
-            <div style=" background-color: green; height:300px; margin-bottom: 15px;">
-                <h2 style=" color: rgba(36, 36, 165, 0.87) ">CONTACT</h2>
+            <div style=" height:300px; margin-bottom: 15px; padding: 10px;">
+                <div style="color:blue;"><i class="fas fa-phone-square fa-3x"></i></i>&nbsp;&nbsp;<b><label style=" font-size: 30px; color: blue;">CONTACT</label></b>&nbsp;&nbsp;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;</div>
+                <label>ADDRESS</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label style="color: black;">Main Street, City</label><br><br>
+                <label>E-MAIL</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label style="color: black;">blabla@business.com</label><br><br>
+                <label>PHONE</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label style="color: black;">555-555-111</label><br><br>
+                <label>WEBSITE</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label style="color: black;">www.blabla.com</label><br><br>
             </div>
 
-            <div style=" background-color: red; height:300px; margin-bottom: 15px;">
-                <h2 style=" color: rgba(36, 36, 165, 0.87) ">SKILLS</h2>
+            <div style=" height:350px; margin-bottom: 15px; padding: 10px;">
+                <div style="color:blue;"><i class="fas fa-lightbulb fa-3x"></i></i></i>&nbsp;&nbsp;<b><label style=" font-size: 30px; color: blue;">SKILLS</label></b>&nbsp;&nbsp;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;</div>
+                <h4>CREATIVE</h4>
+                <span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span
+                    class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot"></span><span class="dot"></span>
+                <h4>TEAMWORK</h4>
+                <span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span
+                    class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span>
+                <h4>INNOVATE</h4>
+                <span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span
+                    class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <h4>COMMUNICATION</h4>
+                <span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span
+                    class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot" id="filleddot"></span><span class="dot"></span>
             </div>
 
         </div>
 
         <div class="col-sm-7">
 
-            <div style=" background-color: green; height:500px; margin-top: 25px; margin-bottom: 15px;">
-                <h2 style=" color: rgba(36, 36, 165, 0.87) ">EDUCATION</h2>
+            <div style=" height:800px; margin-top: 25px; margin-bottom: 15px; padding: 10px;">
+                <div style="color:blue;"><i class="fas fa-star fa-3x"></i></i></i></i>&nbsp;&nbsp;<b><label style=" font-size: 30px; color: blue;">EDUCATION</label></b>&nbsp;&nbsp;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;</div>
+                <ul>
+                    <li><label>MASTER DEGREE</label>&nbsp;&nbsp;<label style="color: black;">//Feb 2011 - Jun 2014</label></li>
+                    <h3>UNIVERSITY NAME</h3>
+                    <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained
+                    propriety off out perpetual his you. Feel sold off felt nay rose met you.</p>
+                    <li><label>MASTER DEGREE</label>&nbsp;&nbsp;<label style="color: black;">//Feb 2011 - Jun 2014</label></li>
+                    <h3>UNIVERSITY NAME</h3>
+                    <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained
+                        propriety off out perpetual his you. Feel sold off felt nay rose met you.</p>
+                    <li><label>MASTER DEGREE</label>&nbsp;&nbsp;<label style="color: black;">//Feb 2011 - Jun 2014</label></li>
+                    <h3>UNIVERSITY NAME</h3>
+                    <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained
+                        propriety off out perpetual his you. Feel sold off felt nay rose met you.</p>
+                    <li><label>MASTER DEGREE</label>&nbsp;&nbsp;<label style="color: black;">//Feb 2011 - Jun 2014</label></li>
+                    <h3>UNIVERSITY NAME</h3>
+                    <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained
+                        propriety off out perpetual his you. Feel sold off felt nay rose met you.</p>
+                </ul>
             </div>
 
-            <div style=" background-color: rgb(55, 0, 128); height:400px; margin-bottom: 15px;">
-                <h2 style=" color: rgba(36, 36, 165, 0.87) ">EXPERIENCE</h2>
+            <div style=" height:700px; margin-bottom: 15px; padding: 10px;">
+                <div style="color:blue;"><i class="fas fa-suitcase fa-3x"></i>&nbsp;&nbsp;<b><label style=" font-size: 30px; color: blue;">EXPERIENCE</label></b>&nbsp;&nbsp;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;</div>
+                <ul>
+                    <li><label>COMPANY NAME</label>&nbsp;&nbsp;<label style="color: black;">//Feb 2011 - Jun 2014</label></li>
+                    <h3>YOUR JOB HERE</h3>
+                    <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained
+                        propriety off out perpetual his you.</p>
+                    <li><label>COMPANY NAME</label>&nbsp;&nbsp;<label style="color: black;">//Feb 2011 - Jun 2014</label></li>
+                    <h3>YOUR JOB HERE</h3>
+                    <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained
+                        propriety off out perpetual his you.</p>
+                    <li><label>COMPANY NAME</label>&nbsp;&nbsp;<label style="color: black;">//Feb 2011 - Jun 2014</label></li>
+                    <h3>YOUR JOB HERE</h3>
+                    <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained
+                        propriety off out perpetual his you.</p>
+                    <li><label>COMPANY NAME</label>&nbsp;&nbsp;<label style="color: black;">//Feb 2011 - Jun 2014</label></li>
+                    <h3>YOUR JOB HERE</h3>
+                    <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained
+                        propriety off out perpetual his you.</p>
+                </ul>
             </div>
 
-            <div style=" background-color: green; height:315px; margin-bottom: 15px;">
-                <h2 style=" color: rgba(36, 36, 165, 0.87) ">SOFTWARE</h2>
+            <div style=" height:350px; margin-bottom: 15px; padding: 10px;">
+                <div style="color:blue;"><i class="fas fa-laptop-code fa-3x"></i></i></i></i></i>&nbsp;&nbsp;<b><label style=" font-size: 30px; color: blue;">SOFTWARE</label></b>&nbsp;&nbsp;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;&boxh;</div>
+                
+                <table style="font-size: 25px; margin-top: -100px;">
+                    <tr>
+                        <td style="padding-right: 100px;">PHOTOSHOP</td>
+                        <td>DREAMWEAVER</td>
+                    </tr><br>
+                    <tr>
+                        <td><progress value="60" max="100" style="margin-right: 30px;"></progress></td>
+                        <td><progress value="65" max="100"></progress></td>
+                    </tr><br>
+                    <tr>
+                        <td>ILLUSTRATOR</td>
+                        <td>INDESIGN</td>
+                    </tr><br>
+                    <tr>
+                        <td><progress value="80" max="100"></progress></td>
+                        <td><progress value="50" max="100"></progress></td>
+                    </tr><br>
+                    <tr>
+                        <td>HTML5&CSS3</td>
+                        <td>AFTER EFFECTS</td>
+                    </tr><br>
+                    <tr>
+                        <td><progress value="40" max="100"></progress></td>
+                        <td><progress value="90" max="100"></progress></td>
+                    </tr>
+                </table>
+
             </div>
 
         </div>
